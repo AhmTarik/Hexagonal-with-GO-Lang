@@ -8,9 +8,9 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/pkg/errors"
 
-	// js "github.com/tensor-programming/hex-microservice/serializer/json"
-	// ms "github.com/tensor-programming/hex-microservice/serializer/msgpack"
-	"github.com/tensor-programming/hex-microservice/shortener"
+	js "github.com/AhmTarik/Hexagonal-with-GO-Lang/serializer/json"
+	ms "github.com/AhmTarik/Hexagonal-with-GO-Lang/serializer/msgback"
+	"github.com/AhmTarik/Hexagonal-with-GO-Lang/shortener"
 )
 
 type RedirectHandler interface {
